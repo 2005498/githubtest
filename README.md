@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-int main()
+void main()
 {
     int n,i ,sum=0;
     float avg=0 ;
@@ -19,5 +19,5 @@ int main()
     printf("sum=%d",sum);
 avg= (float)sum/n;  //type casting
 printf("\naverage=%f",avg);
-    return 0;
+   
 }
