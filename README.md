@@ -5,9 +5,9 @@ int main()
 {
     int n,i ,sum=0;
     float avg=0 ;
-    printf("enter the range:\n");
+    printf("Enter the range:\n");
     scanf("%d",&n);
-    printf("enteries are:\n");
+    printf("Enteries are:\n");
     for(i=1;i<=n;i++)
     {
         printf("%d\n",i);
